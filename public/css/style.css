@@ -1,0 +1,48 @@
+.content{
+    background-color: rgb(233, 233, 233);
+    min-height: 100vh;
+}
+
+#img-icon{
+    float: left;
+}
+
+.tittle{
+    padding: 1%;
+}
+
+.center{
+    text-align: center;
+}
+
+.card{
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+.card-body{
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
+.footer{
+    height: 5vh;
+    background-color: black;
+    
+}
+@media (max-width: 770px){
+    .card.tengah {
+        margin: auto;
+        width: 60%;
+        padding: 10px;
+    }
+}
+.registerForm{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#btn-submit{
+    padding-left: 40%;
+    padding-right: 40%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
